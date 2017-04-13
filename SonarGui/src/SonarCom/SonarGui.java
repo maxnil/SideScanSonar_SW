@@ -3,10 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sonargui;
+package SonarCom;
 
 
 import java.util.concurrent.*;
+import SonarCom.ComInterfaceJFrame;
+import SonarCom.GpsData;
+import SonarCom.SensorData;
+import SonarCom.SonarComCli;
+import SonarCom.SonarComConfig;
+import SonarCom.SonarComData;
+import SonarCom.SonarData;
+import SonarCom.SonarFishConfig;
 
 
 /**
