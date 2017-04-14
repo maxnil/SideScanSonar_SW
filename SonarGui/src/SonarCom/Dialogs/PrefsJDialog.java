@@ -1086,7 +1086,7 @@ public final class PrefsJDialog extends javax.swing.JDialog {
 
     private void jButtonSaveCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSaveCloseActionPerformed
         int rVal = JOptionPane.showConfirmDialog(null, 
-                "Are you sure you want to overwrite the default SonarCom configuration file \"" + this.sonarComConfig.sonarFishConfigFileName + "\"\n" +
+                "Are you sure you want to overwrite the default SonarCom configuration file \"" + this.sonarComConfig.sonarComConfigFileName + "\"\n" +
                 "and SonarFish configuration file \"" + this.sonarComConfig.sonarFishConfigFileName + "\"");
         if (rVal == JOptionPane.CANCEL_OPTION) {
             return;
